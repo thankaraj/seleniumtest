@@ -46,7 +46,7 @@ public class FindBrokenImages {
 			System.out.println(e.getMessage());
 		}
 	}
-//corrections
+
 	@AfterClass
 	public void tearDown() {
 		if (driver != null)
